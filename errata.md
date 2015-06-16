@@ -94,7 +94,6 @@ javascripts: [ "/javascripts/jquery.js", "html/inc/click_more.js" ]
 467-473 | 多处将 ``localhost`` 替换为 ``gerrit@host`` | $ ssh -p 29418 localhost gerrit ls-projects | $ ssh -p 29418 gerrit@host gerrit ls-projects
 477,478,483,486 | 多处将 ``localhost`` 替换为 ``jiangxin@host`` | ssh://localhost:29418/hello.git | ssh://jiangxin@host:29418/hello.git
 
-好详尽的注释啊。自愧不如很远
 
   [bug-2]: http://github.com/gotgit/gotgit/issues/2
   [bug-3]: http://github.com/gotgit/gotgit/issues/3
